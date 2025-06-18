@@ -14,7 +14,6 @@ namespace ConsoleApp3
         {
             Random rand = new Random();
             secretNumber = rand.Next(1, 101);
-            Console.WriteLine(secretNumber);
         }
 
         public string CheckGuess(int guess)
