@@ -1,0 +1,63 @@
+
+Team Assignment: "Guess the Number" Console Game (C#)
+======================================================
+
+Objective:
+----------
+Create a console-based game in C# where the computer selects a random number between 1 and 100, and the player has 5 attempts to guess it.
+
+Each team has 3 to 4 members. Every member has a specific responsibility. Collaboration is key!
+
+Roles & Responsibilities:
+-------------------------
+
+👨‍💻 Programmer 1 – Game Logic (Game.cs)
+- Create a class called 'Game'.
+- Generate a random number between 1 and 100 in the constructor.
+- Implement a method: 
+    string CheckGuess(int guess)
+    → Returns:
+        "Too high!" if the guess is greater than the secret number
+        "Too low!" if the guess is lower than the secret number
+        "Correct!" if the guess is equal to the secret number
+
+🧑‍💻 Programmer 2 – Player Attempts (Player.cs)
+- Create a class called 'Player'.
+- Initialize with 5 attempts.
+- Implement methods:
+    void ReduceAttempts() → decrease the number of remaining attempts
+    bool HasAttempts() → returns true if there are attempts left
+
+💻 Programmer 3 – Game Flow & Integration (Program.cs)
+- Create the Main() method.
+- Use Console to display instructions and get input from the user.
+- Create instances of Game and Player.
+- Loop until the player guesses correctly or runs out of attempts.
+- Print the result of each guess.
+- At the end, display success/failure and wait for key press before exit (Console.ReadKey).
+
+🎨 Programmer 4 – UI Text & Experience (Optional)
+- Improve the user experience:
+    - Use colors with Console.ForegroundColor
+    - Add titles, separators, and spacing
+    - Make instructions user-friendly
+    - Optional: Add loading or delay effects
+
+Notes:
+------
+- Use only basic System libraries.
+- All messages should be in English.
+- Help each other, but let each programmer focus on their task.
+- Final program must compile and run with no errors.
+
+Time:
+-----
+- Estimated time: 40–45 minutes
+- Last 10 minutes: presentation by each team
+
+Evaluation:
+-----------
+✅ Working program without errors  
+✅ Clear code structure and use of classes  
+✅ Good teamwork and communication  
+✅ Everyone can explain what they did
