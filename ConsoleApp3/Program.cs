@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
-    using System;
-
     class Program
     {
         static void Main()
